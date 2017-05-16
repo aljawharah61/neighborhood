@@ -2,7 +2,8 @@
 This project By Aljawharah
 
 ## Getting Started
-To see the application running go to https://aljawharah61.github.io/neighborhood or download it from [this Github repository](https://github.com/aljawharah61/neighborhood) and load the `index.html` into Chrome or Mozilla.
+To see the application running go (https://github.com/aljawharah61/neighborhood) and load the `index.html`
+
 
 ## Built with
 - [Google Maps API](https://developers.google.com/maps/)
