@@ -1,0 +1,129 @@
+html, body, .map-content {
+    height: 800px;
+}
+
+body {
+    background-color: #bdbdbd;
+}
+
+li.selected {
+    background-color: #4059A5;
+}
+
+.content {
+    padding: 2em;
+}
+
+.location-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    border: 1px solid #ddd;
+}
+
+.locations-list {
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+header {
+    color: #ddd;
+}
+.neighborhood {
+    color: #4059A5;
+}
+
+.glyphicon-align-justify,
+.glyphicon-remove {
+    font-size: 30px;
+    position: relative;
+    float: right;
+}
+
+.glyphicon-align-justify:hover,
+.glyphicon-remove:hover {
+    cursor: pointer;
+    opacity: .5;
+}
+
+.icon {
+    width: 90px;
+}
+
+.icons-set {
+    text-align: center;
+}
+
+
+.map-missing-excuse {
+    position: absolute;
+    text-align: end;
+    bottom: 100px;
+    right: 20px;
+    background-color: #4059A5;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.map-content {
+    position: relative;
+}
+
+/* internal div in InfoWindow */
+.gm-style-iw {
+    max-width: 200px;
+}
+
+.info-venue-title {
+    color: #454547;
+}
+
+.info-venue-content {
+    margin: 8px 0 0;
+}
+
+footer {
+    position: absolute;
+    z-index: 99;
+    bottom: 0;
+    right: 40px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #4059A5;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media (min-width: 767px) {
+    .glyphicon-remove,
+    .glyphicon-align-justify {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .hide {
+        display: none;
+    }
+
+    header h4 {
+        margin-top: 0;
+    }
+
+    header h1 {
+        margin: 0;
+    }
+
+    section.content {
+        padding-bottom: 10px;
+    }
+
+    footer {
+        position: relative;
+        background-color: #BFBEBE; /* just make it transparent */
+        padding: 10px 0;
+        text-align: right;
+    }
+}
