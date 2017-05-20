@@ -111,9 +111,9 @@ var TemplateAssembler = function() {
 };
 
 var connector = {
-    clientID: 'TO3Z3DU5EPNEL3NTCIS3BTGLDUKPQAUVH0TQZ3H5ZHM2RJ1C',
-    _clientSecret: 'YGBF01CXD1002FZSRMJFKYQQLYQSFFUJKYHIVQOXQLZWRMAM',
-    _APIVersionDate: '20170517',
+    clientID: 'RSE3SPI05J0UPAGUGAN5XQVWGYHTNJQFRYWAS5HXCNGIML5D',
+    _clientSecret: 'PV23XIPOND4OLQN5Q3BIAWDNQIQ2YNC01DX5JTBSJSAY10NW',
+    _APIVersionDate: '20130815',
     getVenueURL: function(query) {
         return "https://api.foursquare.com/v2/venues/search?client_id=" +
             this.clientID + "&client_secret=" + this._clientSecret + "&" + "v=" +
