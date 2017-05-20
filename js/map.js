@@ -48,7 +48,6 @@ var map = {
     }
 };
 
-
 var loadMap = function() {
     map.chart = new google.maps.Map(document.getElementById('map'), {
         center: {

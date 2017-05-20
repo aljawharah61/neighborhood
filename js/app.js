@@ -4,7 +4,7 @@ var Location = function(data) {
     self.name = data.name;
     self.tags = data.tags;
     self.location = data.location;
-    //self.fourSqrID = data.fourSqrID;
+    self.fourSqrID = data.fourSqrID;
     self.mapMarker = null; // mapMarker will be updated when map markers are created
     self.visible = ko.observable(true); // this property will allow to filter the list of locations in UI
     return self;

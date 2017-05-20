@@ -3,38 +3,51 @@ var categories = [
     'coffee shop', //1
     'store', //2
     'Bank',//3
-    'Restaurant'//4
-
+    'Restaurant',//4
+    'things to do'
   ];
 
 var cityLocations = [];
-//coffee shop
+
+
+cityLocations.push({
+    name: 'Shack Burger',
+    location: {
+      lat: 24.686703831223852,
+      lng: 46.84694766998291
+    },
+    tags: [categories[0], categories[4], categories[5]],
+    fourSqrID: '591f49d39fb6b704b0e3b53b'
+
+});
+
 cityLocations.push({
     name: 'dr.CAFE COFFEE',
     location: {
-        lat:24.681243,
-        lng:46.777904
+        lat:24.68120717619003,
+        lng:46.777579673906175
     },
-    tags: [categories[0],categories[1]],
-    fourSqrID: 'bc5fb4b42419521c95c031d'
+    tags: [categories[0], categories[1]],
+    fourSqrID:'4bc5fb4b42419521c95c031d'
 });
+
 cityLocations.push({
     name: 'Address Cafe',
     location: {
-        lat:24.720328,
-        lng:46.789575
+        lat:24.72024990425009,
+        lng:46.78930944998976
     },
-    tags: [categories[0],categories[1]],
-    fourSqrID: 'eb41a5f6da1df9ff9e53eaf'
+    tags: [categories[0], categories[1]],
+    fourSqrID:'4eb41a5f6da1df9ff9e53eaf'
 });
 cityLocations.push({
     name: 'Brew Crew',
     location: {
-        lat:24.765260,
-        lng:46.725169
+        lat:24.765225792615635,
+        lng:46.72519415616989
     },
-    tags: [categories[0],categories[1]],
-    fourSqrID: 'e47a598b379e6c3e94b'
+    tags: [categories[0], categories[1]],
+    fourSqrID:'58470e47a598b379e6c3e94b'
 });
 
 //shops
@@ -44,7 +57,7 @@ cityLocations.push({
         lat: 24.778267,
         lng: 46.689480
     },
-    tags: [categories[0],categories[2]],
+    tags: [categories[0], categories[2]],
     fourSqrID: '591b559fdb04f50b17a07464'
 });
 
@@ -74,7 +87,7 @@ cityLocations.push({
         lat:24.694658,
         lng: 46.683464
     },
-    tags: [categories[0],categories[5]],
+    tags: [categories[0], categories[5]],
     fourSqrID: '55eeb16a498e9c059a869117'
 });
 cityLocations.push({
@@ -83,7 +96,7 @@ cityLocations.push({
         lat:24.697986,
         lng: 46.683501
     },
-    tags: [categories[0],categories[5]],
+    tags: [categories[0], categories[5]],
     fourSqrID: 'db599fc81543d71da5b8e83'
 });
 cityLocations.push({
@@ -92,6 +105,6 @@ cityLocations.push({
         lat:24.700138,
         lng: 46.704775
     },
-    tags: [categories[0],categories[5]],
+    tags: [categories[0], categories[5]],
     fourSqrID: 'f4ac57498e3bd97f602bb3'
 });
